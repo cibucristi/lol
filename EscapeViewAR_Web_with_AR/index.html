@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EscapeView AR</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>EscapeView AR</h1>
+    <button id="start-btn">Iniciar Partida</button>
+    <div id="game" style="display:none;">
+      <button id="scan-btn">Escanear pista (simulado)</button>
+      <input id="code-input" placeholder="Introduce el código" />
+      <button id="submit-code">Validar Código</button>
+      <button id="hint-btn">Pedir Pista</button>
+      <div id="output"></div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
